@@ -8,7 +8,7 @@
 body {
     font-family: var(--primary-font-family);
     position: relative;
-    width: 1600px;
+    max-width: 1600px;
     height: 2349px;
     background: #FFFFFF;
     color: var(--primary-text-color-ligth);
@@ -34,6 +34,8 @@ ol {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .list{
@@ -107,6 +109,7 @@ img {
 }
 
 .menu-nav-link {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -155,7 +158,7 @@ color: var(--secondary-text-color-ligth);
 }
 
 .hero-title {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -166,7 +169,7 @@ color: var(--secondary-text-color-ligth);
 }
 
 .hero-button{
-    padding: 10px 32px;
+    /* padding: 10px 32px; */
     margin-left: auto;
     margin-right: auto;
     background-color: #2196F3;
@@ -235,27 +238,34 @@ color: var(--secondary-text-color-ligth);
 
 /* =====our team===== */
 .team-section{
+
     background-color: #F5F4FA;
 }
 
 .team-list{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-left: -30px;
     margin-top: -30px;
 }
 
 .team-card{
+
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 120) / 4);
-    background: #FFFFFF;
-    padding-bottom: 30px;
-    
+    background: #FFFFFF;   
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.member-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .member-name{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -330,10 +340,16 @@ color: var(--primary-text-color-dark);
     box-sizing: border-box;
 }
 
+.project-description{
+    padding-left: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
 .project-name{
     margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
+    /* padding-left: 24px; */
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -342,8 +358,7 @@ color: var(--primary-text-color-dark);
 }
 
 .project-position{
-    padding-left: 24px;
-    padding-bottom: 20px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.89;
@@ -356,6 +371,10 @@ color: var(--primary-text-color-dark);
     padding-bottom: 60px;
     background: #2F303A;
 }
+
+.web-studio-footer{
+    margin-bottom: 20px;
+}
 .studio-down{
     font-family: "Raleway";
     font-weight: bold;
@@ -366,7 +385,7 @@ color: var(--primary-text-color-dark);
 }
 
 .adress{
-    margin-top: 20px;
+    /* margin-top: 20px; */
 } 
 
 .map-link{
