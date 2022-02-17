@@ -48,7 +48,6 @@ img {
 
 .current {
     color: #2196F3;
-;
 }
 
 .section {
@@ -157,7 +156,7 @@ color: var(--secondary-text-color-ligth);
 /* =======hero======= */
 .hero {
     padding-top: 200px;
-    /* padding-bottom: 200px; */
+    padding-bottom: 200px;
     background: #2F303A;
     justify-content: center;
 }
@@ -174,10 +173,10 @@ color: var(--secondary-text-color-ligth);
 }
 
 .hero-button{
-    /* padding: 10px 32px; */
+    padding: 10px 32px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     background-color: #2196F3;
     font-family: var(--primary-font-family);
     font-weight:700;
@@ -244,7 +243,7 @@ color: var(--secondary-text-color-ligth);
 
 /* =====our team===== */
 .team-section{
-
+    padding-top: 0px;
     background-color: #F5F4FA;
 }
 
